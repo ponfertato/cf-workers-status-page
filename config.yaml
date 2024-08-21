@@ -5,14 +5,14 @@ settings:
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
-  allmonitorsOperational: 'Все системы работают'
-  notAllmonitorsOperational: 'Не все системы работают'
-  monitorLabelOperational: 'Работает'
-  monitorLabelNotOperational: 'Не работает'
-  monitorLabelNoData: 'Нет данных'
-  dayInHistogramNoData: 'Нет данных'
-  dayInHistogramOperational: 'Все в порядке'
-  dayInHistogramNotOperational: ' инцидент(ы)' # xx зарегистрированный инцидент(ы)
+  allmonitorsOperational: 'All Systems Operational'
+  notAllmonitorsOperational: 'Not All Systems Operational'
+  monitorLabelOperational: 'Operational'
+  monitorLabelNotOperational: 'Not Operational'
+  monitorLabelNoData: 'No data'
+  dayInHistogramNoData: 'No data'
+  dayInHistogramOperational: 'All good'
+  dayInHistogramNotOperational: ' incident(s)' # xx зарегистрированный инцидент(ы)
 
 monitors:
   - id: potatoenergy-ru
