@@ -21,8 +21,8 @@ monitors:
     method: GET
     expectStatus: 200
 
-  - id: potatoenergy-store
-    name: potatoenergy.store 
-    url: 'https://potatoenergy.store/'
-    method: GET
-    expectStatus: 200
+  # - id: potatoenergy-store
+  #   name: potatoenergy.store 
+  #   url: 'https://potatoenergy.store/'
+  #   method: GET
+  #   expectStatus: 200
